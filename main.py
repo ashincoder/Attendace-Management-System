@@ -1,3 +1,3 @@
 import face_recognition
-import cv2
-print('Attendance is here')
+import numpy
+print("Attendance is here")
