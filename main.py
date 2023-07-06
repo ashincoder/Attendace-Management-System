@@ -1,12 +1,12 @@
-import cv2
+import cv2 as cv
 
-cap = cv2.VideoCapture(0)
+cap = cv.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
-    cv2.imshow('Attendance AI', frame)
-    if cv2.waitKey(1)==ord('q'):
+    cv.imshow('Attendance AI', frame)
+    if cv.waitKey(1)==ord('q'):
         break
 
 cap.release()
-cv2.destroyAllWindows()
+cv.destroyAllWindows()
