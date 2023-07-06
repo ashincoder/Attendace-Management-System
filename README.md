@@ -1,3 +1,3 @@
-# Attendace-Management-System
+# Attendance-Management-System
 
 A face recognition attendance AI 
