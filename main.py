@@ -19,7 +19,6 @@ know_student_names = [
      'Narendra Modi',
      'Allu Arjun',
      'Mohan lal ',
-     'Athul Sabu'
  ]
 names_copy = know_student_names.copy()
 #  Face from Camera
